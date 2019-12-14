@@ -85,3 +85,45 @@ Then, run below commands to verify the settings:
 After that, check your settings and installations. Open a terminal and type <b>“sdkmanager –list”</b>.
 
 And type <b>“adb”</b> to check adb is working properly.
+
+<h2>3. Install Homebrew</h2>
+Open a terminal window and run below command to install brew:
+<b>
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</b>
+Check brew version: <b>brew -v</b>
+
+<h2>4. Install Node.js and npm</h2>
+Use brew to install node: <b> brew install node</b>
+optional you can run: <b>brew update</b> and <b>brew upgrade node</b> 
+
+<h2>5. Install Appium</h2>
+Install appium via terminal you need to run below commands:
+
+<b>npm install -g appium</b>
+More documentation can be found (http://appium.io/docs/en/about-appium/getting-started/)
+
+<h2>6. Install Appium Doctor</h2>
+
+Appium Doctor checks most of the preconditions for appium to run successfully. In order to install it, run below command:
+
+<b>npm install -g appium-doctor</b>
+
+Let’s run appium doctor and see what we should do for Appium.
+use this command: <b>appium-doctor</b>
+
+you can see if you missed anything
+
+<h2>6. Install Maven</h2>
+It is used for building and managing Java-based projects by using dependencies. Open a terminal and run below command.
+
+<b>brew install maven</b>
+Then, check the installation with below command:
+
+<b>mvn -version</b>
+
+Then, add the maven path to your profile file.
+<b>
+export PATH=/usr/local/Cellar/maven/3.6.0/bin:$PATH</b>
+
+
+<h1> HOW TO RUN</h1>
