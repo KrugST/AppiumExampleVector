@@ -82,9 +82,7 @@ Then, paste below commands: (Change your user name! Not use my username “roman
 
 Then, run below commands to verify the settings:
 
-After that, check your settings and installations. Open a terminal and type <b>“sdkmanager –list”</b>.
-
-And type <b>“adb”</b> to check adb is working properly.
+And type <b>“adb --version”</b> to check adb is working properly.
 
 <h2>3. Install Homebrew</h2>
 Open a terminal window and run below command to install brew:
@@ -94,7 +92,10 @@ Check brew version: <b>brew -v</b>
 
 <h2>4. Install Node.js and npm</h2>
 Use brew to install node: <b> brew install node</b>
+
 optional you can run: <b>brew update</b> and <b>brew upgrade node</b> 
+
+<b>npm -v</b> to check if its installed
 
 <h2>5. Install Appium</h2>
 Install appium via terminal you need to run below commands:
@@ -132,3 +133,6 @@ export PATH=/usr/local/Cellar/maven/3.6.0/bin:$PATH</b>
 2. Run "adb devices" commend to make sure your device is connected
 3. Install Vector app from google play
 4. Use run.sh to start my atuomation
+  4.1. My automation should install SSO app automaticly. 
+  
+ You can find screenshots in screenshot folder. 
