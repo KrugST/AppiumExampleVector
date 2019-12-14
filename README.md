@@ -113,7 +113,7 @@ use this command: <b>appium-doctor</b>
 
 you can see if you missed anything
 
-<h2>6. Install Maven</h2>
+<h2>7. Install Maven</h2>
 It is used for building and managing Java-based projects by using dependencies. Open a terminal and run below command.
 
 <b>brew install maven</b>
@@ -128,7 +128,7 @@ export PATH=/usr/local/Cellar/maven/3.6.0/bin:$PATH</b>
 
 <h1> HOW TO RUN</h1>
 
-1. Open android sturion and add vertual device
-2. Launch your vertual device
+1. Connect your device to your computer
+2. Run "adb devices" commend to make sure your device is connected
 3. Install Vector app from google play
 4. Use run.sh to start my atuomation
