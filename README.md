@@ -127,3 +127,8 @@ export PATH=/usr/local/Cellar/maven/3.6.0/bin:$PATH</b>
 
 
 <h1> HOW TO RUN</h1>
+
+1. Open android sturion and add vertual device
+2. Launch your vertual device
+3. Install Vector app from google play
+4. Use run.sh to start my atuomation
