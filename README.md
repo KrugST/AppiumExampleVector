@@ -130,9 +130,10 @@ export PATH=/usr/local/Cellar/maven/3.6.0/bin:$PATH</b>
 <h1> HOW TO RUN</h1>
 
 1. Connect your device to your computer
-2. Run "adb devices" commend to make sure your device is connected
+2. Run "adb devices" command to make sure your device is connected
+  2.1. Make sure you enabled developers mode on your device, and debuging is ON.
 3. Install Vector app from google play
-4. Use run.sh to start my atuomation
-  4.1. My automation should install SSO app automaticly. 
+4. Use run.sh to start my automation
+  4.1. My automation should install SSO app automatically. 
   
  You can find screenshots in screenshot folder. 
